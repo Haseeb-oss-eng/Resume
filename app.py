@@ -10,7 +10,7 @@ about_page = st.Page(
 ) 
 
 education = st.Page(
-    page= "views/education.py",
+    page= "views/educations.py",
     title= "Education",
     icon= "👨‍🎓",
 )

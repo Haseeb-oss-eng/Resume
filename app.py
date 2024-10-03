@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.title("DIGITAL RESUME")
 #---Page Navigations---
 
 about_page = st.Page(
@@ -29,12 +30,8 @@ certificate = st.Page(
 #--Navigations--
 
 pg = st.navigation(
-    {
-        "Info": [about_page],
-        "Details": [education, project, certificate]
-    }
-)
-
+   [about_page,education, project, certificate])
+   
 #--setup the webpage--
 #st.logo()
 

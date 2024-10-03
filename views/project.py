@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Projects")
+st.title("PROJECTS ⚒️")
 
 st.subheader("Internship")
 st.write(
@@ -10,6 +10,13 @@ st.write(
       - Skills: Google Earth Engine (Javascript API), Environmental Modelling
       """
 )
+st.markdown(
+        """
+        <a href="https://github.com/Haseeb-oss-eng/ET_GEE_SSEBop"><button>Code Work for Estimate ET</button></a>
+        """, 
+        unsafe_allow_html=True
+    )
+
 
 st.write("\n")
 st.write("\n")

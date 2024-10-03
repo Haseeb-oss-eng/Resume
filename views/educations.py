@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title("Education 👨‍🎓")
+st.title("EDUCATION 👨‍🎓")
 
 st.subheader("M.Tech Geoinformatics")
 st.write(

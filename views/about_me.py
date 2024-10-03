@@ -88,7 +88,7 @@ st.write(
 )
 st.markdown(
         """
-        <a href="mailto:someone@example.com">
+        <a href="mailto:ibnhabeebulla@gmail.com">
             <button style="background-color:red; color:white; border:none; padding: 10px 24px; cursor:pointer;">
             Send Mail
             </button>

@@ -1,5 +1,18 @@
 import streamlit as st
 
+# To hide Streamlit's default menu (hamburger menu) and the "Made with Streamlit" footer
+st.set_page_config(
+    page_title="Digital Resume", 
+    page_icon=":briefcase:", 
+    layout="wide",
+    initial_sidebar_state="collapsed",
+    menu_items={
+        'Get Help': None,
+        'Report a bug': None,
+        'About': None,
+    }
+)
+
 st.title("DIGITAL RESUME")
 #---Page Navigations---
 

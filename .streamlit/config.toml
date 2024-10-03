@@ -1,0 +1,17 @@
+[theme]
+base="dark"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+
+[global]
+showWarningOnDirectExecution = false
+
+[client]
+displayEnabled = true
+
+[ui]
+hideToolbar = true
